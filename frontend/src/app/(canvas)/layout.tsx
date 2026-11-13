@@ -9,13 +9,11 @@ const everett = localFont({
   style: "normal",
 });
 
-
 export const metadata: Metadata = {
   title: "IntelliFlow AI | Workflow Canvas",
   description:
     "Create, edit, and manage your workflows with IntelliFlow AI. Connect triggers and actions to automate repetitive tasks and streamline your processes.",
 };
-
 
 export default function WorkflowCanvasLayout({
   children,
@@ -24,7 +22,7 @@ export default function WorkflowCanvasLayout({
 }>) {
   return (
     <main
-      className={`${everett.className} h-scren bg-gradient-to-b from-white to-gray-100`}
+      className={`${everett.className} h-screen bg-gradient-to-b from-white to-gray-100`}
     >
       {children}
       <Toaster />
